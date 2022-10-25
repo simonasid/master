@@ -1,0 +1,31 @@
+.container-fluid.header{
+    background-color: #4C54D2;
+    height: 50px;
+}
+
+.container-fluid.header .logo{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.btn-primary{
+    background-color: #ff7654;
+}
+
+.btn.btn-secondary{
+    background-color: #ffc107;
+}
+
+.container-fluid.hero{
+    background-color: #d0d2f7;
+    height: 400px;
+
+}
+
+.container-fluid.cards img{
+    height: 250px;
+}

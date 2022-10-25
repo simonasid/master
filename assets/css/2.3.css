@@ -1,0 +1,30 @@
+.body {
+    text-align: center;
+    max-width: 600px;
+    margin-right:20px;
+    margin-left: 20px;
+    border-style: double;
+    padding-left: 150px;
+    padding-right: 150px;
+
+  }
+  
+  .logo {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .menu {
+    display:flex;
+    justify-content: space-between; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px;
+    border-bottom: 30px;
+    border-top: 30px;
+  }
+  
+  .paragraph {
+    max-width: 600px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

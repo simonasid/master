@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+  <h2>W3.CSS Modal</h2>
+  <p> W3 pagalba panaudotos konteinerių klasės kuriant sekcijas modale (headeris ir footeris)</p>
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Atidaryti modalą</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Modalo Headeris</h2>
+      </header>
+      <div class="w3-container">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora aliquam architecto nihil voluptatem esse voluptate veniam vero? Sequi aliquam nisi veritatis eius tenetur reprehenderit est corporis, delectus dignissimos tempora esse nam, aut similique repudiandae in enim quam id distinctio doloremque.</p>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>Modalo Footeris</p>
+      </footer>
+    </div>
+  </div>
+</div>
+            
+</body>
+</html>

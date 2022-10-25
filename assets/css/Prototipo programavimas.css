@@ -1,0 +1,127 @@
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-content: right;
+    color:aliceblue;
+    margin: 0; 
+    background: blue;
+    height: 50px;
+  }
+  
+.divas {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%,)
+}
+
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+  }
+
+  section {
+    display: block;
+    margin:0px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    text-emphasis-style: bold;
+    height: 400px;
+}
+
+  .boxes2 {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 0px;  
+}
+
+.boxes2 div{
+    border: 1px #ccc solid;
+    padding:10px;
+}
+
+.box-11 {
+    background-color: green;
+    color: green;
+}
+
+.box-22 {
+    background-color: green;
+    color: green;
+}
+
+.box-33 {
+    background-color: green;
+    color: green;
+}
+
+.boxes1 {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 0px;  
+}
+
+.boxes1 div{
+    border: 1px #ccc solid;
+    padding:10px;
+}
+
+.box-1 {
+    background-color: white;
+}
+
+.box-2 {
+    background-color: white;
+}
+
+.box-3 {
+    background-color: white;
+}
+
+.yellow {
+    display: box;
+    margin:0px;
+    background-color: yellow;
+    height: 300px;  
+    align-items: center;
+}
+
+.boxes3 {
+  display:flex;
+  justify-content: space-around;
+  margin-top: 0%;
+  background-color: red;
+  height: 400px
+}
+
+.boxlast{
+  width: 250px;
+  word-wrap: break-word;
+}
+
+.preboxlast{
+  width: 250px;
+  word-wrap: break-word;
+}
+.box-9{
+  width: 250px;
+  word-wrap: break-word;
+}
+
+.box-8{
+  width: 250px;
+ word-wrap: break-word;
+}
+
+
+
